@@ -44,7 +44,3 @@ npm install --save @react-hooks
 npm run test
 # to clear cache use jest --clearCache
 ```
-
-# Публикация
-
-Публикация осуществляется с помощью шагов пайпа: `init-deploy` для master, `deploy-dev` для фича веток.
