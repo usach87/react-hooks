@@ -1,0 +1,8 @@
+variables:
+  ACTION_NODE_IMAGE: docker-registry.action-media.ru/docker-base/base-ci-nodejs-14
+  MINIMUM_COVERAGE_DIFF_PERCENTAGE: 100
+
+include:
+  - project: 'dev/ci-receipts'
+    ref: 'master'
+    file: '/gitlab/.gitlab-ci-library-frontend.yml'

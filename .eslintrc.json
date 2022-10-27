@@ -1,0 +1,28 @@
+{
+  "extends": "@action/eslint-config/eslint-react",
+  "plugins": ["react-hooks"],
+  "rules": {
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/interface-name-prefix": 0,
+    "@typescript-eslint/no-angle-bracket-type-assertion": 0,
+    "@typescript-eslint/no-empty-function": 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "class-methods-use-this": 0,
+    "global-require": 0,
+    "array-callback-return": 1,
+    "import/extensions": 0,
+    "max-classes-per-file": 0,
+    "max-len": 0,
+    "max-lines": 0,
+    "no-bitwise": 0,
+    "no-console": 1,
+    "no-mixed-operators": 0,
+    "no-multi-assign": 0,
+    "no-param-reassign": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react-hooks/exhaustive-deps": 1,
+    "react-hooks/rules-of-hooks": 2,
+    "sort-keys": 0,
+    "no-unused-vars": 0
+  }
+}

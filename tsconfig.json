@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["dom", "es2016"],
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "ES5",
+    "experimentalDecorators": false,
+    "downlevelIteration": true,
+    "declaration": true,
+    "declarationDir": "./dist"
+  },
+  "include": ["src"]
+}
