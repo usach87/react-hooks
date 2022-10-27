@@ -1,9 +1,6 @@
-# Доступные версии
-Список доступных версий - http://nexus.action-media.ru/#browse/browse:npm-group:%40product-platform%2Freact-hooks
-
 # Установка
 ```
-npm install --save @product-platform/react-hooks
+npm install --save @react-hooks
 ```
 
 # Версионирование
@@ -24,13 +21,13 @@ npm install --save @product-platform/react-hooks
       ```
   - Открыть свой проект, в котором планируется применить библиотеку и выполнить:
       ```
-      npm link @product-platform/react-hooks
+      npm link @react-hooks
       npm run start
       ```
 
     После этого, пакет будет добавлен в проект.
 
-  - При внесении изменений в `@product-platform/react-hooks`, необходимо выполнить команду
+  - При внесении изменений в `@react-hooks`, необходимо выполнить команду
       ```
       npm run build
       ```
@@ -38,7 +35,7 @@ npm install --save @product-platform/react-hooks
 
   - Чтобы убрать линк, нужно выполнить команду:
       ```
-      npm unlink --no-save @product-platform/react-hooks
+      npm unlink --no-save @react-hooks
       ```
 
 # Тестирование
@@ -51,8 +48,3 @@ npm run test
 # Публикация
 
 Публикация осуществляется с помощью шагов пайпа: `init-deploy` для master, `deploy-dev` для фича веток.
-
-
-# Сводная таблица с хуками
-
-Доступна по [сслыке](https://conf.action-media.ru/pages/viewpage.action?pageId=302432037)

@@ -1,5 +1,5 @@
 {
-  "name": "@product-platform/react-hooks",
+  "name": "react-hooks",
   "version": "0.8.2",
   "description": "React Hooks library",
   "author": "action",
@@ -16,26 +16,15 @@
     "test": "jest",
     "test:coverage": "npm run test -- --passWithNoTests --verbose --colors --coverage"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.action-media.ru/product-platform/frontend-libs/react-hooks.git"
-  },
-  "publishConfig": {
-    "registry": "http://nexus.action-media.ru/repository/npm-action/"
-  },
   "keywords": [],
   "peerDependencies": {
     "react": ">=16.8.0 && <18.0.0",
     "react-dom": ">=16.8.0 && <18.0.0"
   },
   "dependencies": {
-    "@juggle/resize-observer": "^3.3.1",
-    "@product-platform/ui-kit-react": "^0.7.2",
-    "@product-platform/utils": "^1.2.0"
+    "@juggle/resize-observer": "^3.3.1"
   },
   "devDependencies": {
-    "@action/eslint-config": "^1.0.0",
-    "@action/jest-config": "^1.1.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/react-hooks": "^7.0.1",
